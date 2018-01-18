@@ -127,7 +127,9 @@ and **Splashonly Plugin**
 Once they are installed successfully we have to setup SMTP SERVER details 
 as we need to verifiy user as I told above in **For verified Users** Section.
 
-GOTO this **C:\xampp\htdocs\authpuppy\apps\frontend\config\factories.yml** path and enter the SMTP details, be careful as yml is indentation sensitive.
+For the first time go through the application flow to register, so that app cache is created once it is done
+
+GOTO this **C:\xampp\htdocs\authpuppy\cache\frontend\prod\config\congif-factories.yml** path and enter the SMTP details, be careful as yml is indentation sensitive.
 keep the same indentation as mentioned below.
 ```C++
 mailer:
